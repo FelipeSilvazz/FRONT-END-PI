@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CadastroPet</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color:#e0c7f1;
+        color:#fff
+    }
+    a{text-decoration: none;
+    color:rgb(185, 128, 218)
+}
+
+    #login{text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    }
+    .name input{
+        border-radius: 15px;
+        border: none;
+        width: 250px;
+        height: 40px;
+        padding-left: 15px;
+        background-color: #1e1c2e;
+        color: #b6b6b6;
+        margin-bottom: 15px;
+    }
+    .email input{
+        border-radius: 15px;
+        border: none;
+        width: 250px;
+        height: 40px;
+        padding-left: 15px;
+        background-color: #1e1c2e;
+        color: #b6b6b6;
+    }
+    .senha input{
+        border-radius: 15px;
+        border: none;
+        width: 250px;
+        height: 40px;
+        padding-left: 15px;
+        background-color: #1e1c2e;
+        color: #b6b6b6;
+        margin-top: 15px;
+    }
+    .entrar input{
+        cursor: pointer;
+        width: 120px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        background-color:#1e1c2e;
+        color: #b6b6b6;
+    }
+  
+    input::placeholder{
+        color: #b6b6b6;
+    }
+    h1{
+        color: rgb(142, 65, 230);
+    }
+    .caixa{margin-top: 65px;}
+    .caixa img{
+        width: 250px;
+    }
+input:focus{
+    outline: none;
+}
+
+       h2{
+        font-size: 20px;
+        color:rgb(142, 65, 230)
+       } 
+       h3{font-size: 20px;
+    color:rgb(142, 65, 230)
+    }
+    </style>
+</head>
+<body>
+    <div id="login">
+        <div class="caixa">
+            <img src="petcon/pettrans.png">
+            <h1>Cadastro do Pet</h1>
+           <h2>Nome do Pet</h2>
+            <div class="name">
+                <input type="text" placeholder="nome do pet">
+            </div>
+           <h2>Dados do Pet</h2>
+            <div class="email">
+            <input type="text" placeholder="raça e cor">
+            </Div>
+            <h3>Idade do Pet</h3>
+            <div>
+                <div class="idade">
+             <select name="idade" id="idade"><label for="idade">Idade</label>
+             <option selected disabled value="">Selecione</option>
+             <option value="">1</option>
+             <option value="">2</option>
+             <option value="">3</option>
+             <option value="">4</option>
+             <option value="">5</option>
+             <option value="">6</option>
+             <option value="">7</option>
+             <option value="">8</option>
+             <option value="">9</option>
+             <option value="">10</option>
+             <option value="">11</option>
+             <option value="">12</option>
+             <option value="">13</option>
+             <option value="">14</option>
+             <option value="">15</option>
+             <option value="">16</option>
+             <option value="">17</option>
+             <option value="">18</option>
+             <option value="">19</option>
+             <option value="">20</option>
+             <option value="">21</option>
+             <option value="">22</option>
+             <option value="">23</option>
+             <option value="">24</option>
+             <option value="">25</option>
+         </select>
+         <h3>Sexo do pet</h3>
+         <div>
+            <select name="sexo" id=""><label for="">Sexo</label>
+            <option selected disabled value="">Selecione</option>
+            <option value="">Macho</option>
+            <option value="">Fêmea</option>
+            </select>
+         
+            <h2>Outras Informações</h2>
+            <div class="email">
+                <input type="text" placeholder="ex:tratamentos,temperamento,história,etc">       
+            </div>
+            <h2>Fotos do Pet</h2>
+            <div class="email">
+                <input type="text" placeholder="fotos do Pet">
+            </div>
+            <h2>Cidade do pet</h2>
+            <div class="email">
+                <input type="text" placeholder="ex:Campinas,São paulo">
+            </div>
+            <h2>Nome da ong</h2>
+            <div class="email">
+                <input type="text" placeholder="Nome da ong responsável pelo pet">
+            </div>
+            <h2>Contato da ong</h2>
+            <div class="email">
+                <input type="text" placeholder="ex:site,telefone,whatsapp">
+            </div>
+
+           <div class="entrar">
+            <p>Adotar um Pet? <a href="Entrar.html">clique aqui</a></p>
+            <input type="submit" value="Doar">
+           </div>
+        </div>
+    </div>
+    
+</body>
+</html>

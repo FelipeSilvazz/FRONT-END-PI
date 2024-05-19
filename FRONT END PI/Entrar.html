@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petcon Login</title>
+   <style>
+    body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color:#e0c7f1;
+        color:#fff
+    }
+    a{text-decoration: none;
+    color:rgb(185, 128, 218)
+}
+
+    #login{text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    }
+    .email input{
+        border-radius: 15px;
+        border: none;
+        width: 250px;
+        height: 40px;
+        padding-left: 15px;
+        background-color: #1e1c2e;
+        color: #b6b6b6;
+    }
+    .senha input{
+        border-radius: 15px;
+        border: none;
+        width: 250px;
+        height: 40px;
+        padding-left: 15px;
+        background-color: #1e1c2e;
+        color: #b6b6b6;
+        margin-top: 15px;
+    }
+    .entrar input{
+        cursor: pointer;
+        width: 120px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        background-color:#1e1c2e;
+        color: #b6b6b6;
+    }
+    input::placeholder{
+        color: #b6b6b6;
+    }
+    h1{
+        color: rgb(142, 65, 230);
+    }
+    .caixa{margin-top: 65px;}
+    .caixa img{
+        width: 250px;
+    }
+input:focus{
+    outline: none;
+}
+   </style>
+</head>
+
+<body>
+    <div id="login">
+        <div class="caixa">
+            <a href="index.html">
+            <img src="petcon/pettrans.png">
+            </a>
+            <h1>Login</h1>
+            <div class="email">
+            <input type="email" placeholder="E-mail">
+            </Div>
+
+            <div class="senha">
+                <input type="password" placeholder="senha">       
+            </div>
+
+           <div class="entrar">
+            <p>Ainda não tem uma conta? <a href="Cadastre-se.html"> Crie uma</a></p>
+            <input type="submit" value="entrar">
+           </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
